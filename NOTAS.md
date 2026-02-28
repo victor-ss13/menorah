@@ -50,3 +50,40 @@ STANDARD_COLUMNS: list[str] = [
 ---
 
 *Atualizado em: 27/02/2026*
+
+## OBS
+
+- Google Drive:
+    • Login: levemaislogistica@gmail.com
+    • Senha: #@dm@leve-m@is#
+- "G:\Outros computadores\Meu modelo Laptop (Samuel)\MAIS ATIVAS\Usuários\Check List e USUÁRIOS - Leve Mais.xlsx"
+    •  Tabela de login e senha dos sistemas envolvidos
+- Produto final do script existente:
+    • Tabela de preços gerada pelo script Python
+    • É necessário pegar todo conteúdo da tabela e converter em "número" dentro do Excel(manualmente)
+    • Procurar forma de tratar essa conversão manual
+
+## LAR
+
+- Executa script Python (pasta "archives/lar")
+- Converte conteúdo da tabela gerada para "Número"
+- Cola tabela gerada dentro da "Tabela PADRÃO LAR" na aba "Nova Tabela Python"
+- A tabela padrão faz o restante do serviço aplicando as fórmulas necessárias
+- O intuito é fazer com que a tabela python seja inserida na aba correta de forma automatizada, após isso, os cálculos necessários estarão prontos
+- Com cálculos prontos, pegamos o produto final nas abas "PROCV - LAR" e "PROCV - Calafate-LAR" e colamos o conteúdo da tabela dentro dos arquivos "modelo_importacao_produto_lar" e "modelo_importacao_produto_calafate_lar"
+- Caminhos envolvidos:
+    • Tabela Padrão: "G:\Outros computadores\Meu modelo Laptop (Samuel)\MAIS ATIVAS\Atualização de tabelas\Tabelas OFICIAIS em uso\Novas OFICIAIS em uso após atualização MERCOS\Tabela PADRÃO LAR - Sistema NOVO_ Preço Kg.xlsx"
+    • Modelo LAR: "G:\Outros computadores\Meu modelo Laptop (Samuel)\MAIS ATIVAS\Atualização de tabelas\Tabelas OFICIAIS em uso\Novas OFICIAIS em uso após atualização MERCOS\modelo_importacao_produto_lar.xlsx"
+    • Modelo Calafate LAR: "G:\Outros computadores\Meu modelo Laptop (Samuel)\MAIS ATIVAS\Atualização de tabelas\Tabelas OFICIAIS em uso\Novas OFICIAIS em uso após atualização MERCOS\modelo_importacao_produto_calafate_lar.xlsx"
+
+## FRIMESA
+
+- Executa cada um dos 4 scripts Python (pasta "archives/frimesa)
+- Converte conteúdo das tabelas geradas para "Número"
+- Cola cada uma das tabelas geradas nas respectivas abas da "Tabela PADRÃO Frimesa", abas: "Distribuidor", "Autosservico", "Varejo" e "Food Service"
+- A tabela padrão faz o restante do serviço aplicando as fórmulas necessárias
+- O intuito é fazer com que cada tabela python seja inserida nas respectivas abas corretas de forma automatizada, após isso, os cálculos necessários estarão prontos
+- Com cálculos prontos, pegamos o produto final na aba "PROCV" e colamos seu conteúdo de tabela dentro do arquivo "modelo_importacao_produto_frimesa_4_tabelas"
+- Caminhos envolvidos:
+    • Tabela Padrão: "G:\Outros computadores\Meu modelo Laptop (Samuel)\MAIS ATIVAS\Atualização de tabelas\Tabelas OFICIAIS em uso\Novas OFICIAIS em uso após atualização MERCOS\Tabela PADRÃO Frimesa_4_tabelas.xlsx"
+    • Modelo: "G:\Outros computadores\Meu modelo Laptop (Samuel)\MAIS ATIVAS\Atualização de tabelas\Tabelas OFICIAIS em uso\Novas OFICIAIS em uso após atualização MERCOS\modelo_importacao_produto_frimesa_4_tabelas.xlsx"
